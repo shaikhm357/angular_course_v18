@@ -14,4 +14,9 @@ import { DUMMY_USERS } from './dummy.user';
 export class AppComponent {
   title = 'angular_course_v18';
   users = DUMMY_USERS
+
+  onSelectUserr(id: string){
+    console.log('Selected user with id ' + id)
+  }
+
 }
