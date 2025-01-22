@@ -27,4 +27,8 @@ export class TaskComponents {
     this.isAddingTask = true
   }
 
+  onCancelAddTask() {
+    this.isAddingTask = false
+  }
+
 }
